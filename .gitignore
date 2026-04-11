@@ -1,0 +1,13 @@
+# Ignore all compiled Java class files
+*.class
+
+# If you use an IDE like IntelliJ or Eclipse, ignore their metadata
+.idea/
+*.iml
+.project
+.settings/
+.classpath
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
