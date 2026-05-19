@@ -1,6 +1,6 @@
 package package_b;
 import package_a.Human;
-
+/*Instance variables declared as static are, essentially, global variables. When objects of its class are declared, no copy of a static variable is made. Instead, all instances of the class share the same static variable.*/
 class Population{
 	public static void main(String[] args){
 	  //In the folder package_a, a .java file is created named Human which defines the class and it's behaviour and we are creating it's objects in here by importing it in the first line of the code

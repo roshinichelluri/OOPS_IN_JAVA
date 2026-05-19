@@ -1,4 +1,7 @@
 package package_a;
+
+/* Note : Instance variables declared as static are, essentially, global variables. When objects of its class are declared, no copy of a static variable is made. Instead, all instances of the class share the same static variable. */
+
 public class Human{
 	String name;
 	public long nonstaticPopulation;
